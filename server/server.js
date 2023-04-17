@@ -3,12 +3,7 @@ const {lights_mainFunction, reverse_lighting} = require ("./utils/magichome_util
 
 
 
-//simple instruction json, this will end up being user input
-/* var instruction_json = {
-    name: "ready_room",
-    powerstate: false
-} */
-
+//Instructional json variable for testing, Options: Name: ready_room, ten_forward, main_bridge.  powerstate is a Boolean
 var instruction_json = {
     name: "ready_room",
     powerstate: true

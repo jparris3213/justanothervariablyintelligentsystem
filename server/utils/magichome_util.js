@@ -29,7 +29,7 @@ const lights_mainFunction = (data) => {
       return "Off"
     }
   }
-
+  
   //Iterate through all lights in particular room, giving status message for each
   for (var i = 0; i < device_list.length; i++) {
     powerControl(device_list[i]["ip"], powerstate);
